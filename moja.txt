@@ -1,0 +1,193 @@
+
+
+<html>
+	<head>
+	
+		<title>Red Hot Chili Peppers</title>
+		<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+					<script>
+							var dan=new Array("nedjelja","ponedjeljak","utorak","srijeda","cetvrtak","petak","subota");
+							var mjesec=new Array("sijecnja","veljace","ozujka","travnja","svibnja","lipnja","srpnja","kolovoza","rujna","listopada","studenog","prosinca");
+							var d=new Date();
+					</script>
+				<Script>
+			function bend(a)
+				{
+					var x=a.options[a.selectedIndex].value;
+					location=x;
+				}
+				function hello()
+{
+alert("Pozdrav! Dobro došao/la!");
+}
+				</script>
+<script>
+</script>
+<script>
+function otvori()
+{
+window.open("http://redhotchilipeppers.com/galleries","","height=500, width=700");
+}
+</script>
+
+	</head>
+	<body onload="hello()">
+ <body bgcolor="#FFC0CB">
+	 <body text="#660033">
+		<table border="0" style="width:1100px;" cellpadding="0" cellspacing="0">
+		<tr>
+		<td colspan="2" style="background-color:#FFC0CB;text-align:center">
+		<h1> RED HOT CHILI PEPPERS</h1>
+		
+
+
+		</td>
+	</tr>
+
+	<tr>
+	<td style="background-color:#F0F0F0 ;width:100px;vertical-align:top;">
+	<style>
+table,td
+{
+border-collapse:collapse;
+}
+td
+{
+padding:5px;
+}
+</style>
+</head>
+<body>
+
+<table style="width:800px">
+<tr>
+  <td colspan="3"><h2> Opcenito o Peppersima</h2> </td>
+</tr>
+<tr>
+  <td colspan="3">Red Hot Chili Peppers su jedna od grupa 
+                  najprepoznatljivijeg zvuka, koja objedinjuje najraznovrsnije glazbene 
+                  stilove: funk, rock, punk rock, psihodeliju.</td>		
+</tr>
+<tr>
+  <td><b> Glavni pjevac: </b></td>
+  <td colspan="2">Anthony Kiedis (1983.–)</td>		
+
+</tr>
+<tr>
+  <td><b>Podrijetlo:</b></td>
+  <td colspan="2"> Los Angeles, Kalifornija, SAD</td>		
+ 
+</tr>
+<tr>
+  <td><b>Clanovi:</b></td>
+  <td colspan="2">  Anthony Kiedis, Flea, John Frusciante, Chad Smith</td> 
+</tr>
+
+<tr>
+  <td> <b>Nagrade:</b></td>
+  <td colspan="2">   Nagrada Grammy za najbolji rock album, MTV europska glazbena nagrada 
+                    za najbolji rock band, MTV video glazbena nagrada Michael Jackson Video Vanguard, 
+                    MTV video glazbena nagrada za najbolju web stranicu izvodaca,
+                    Nagrada Grammy za najbolju hard rock izvedbu, 
+                    Nagrada Grammy za najbolju rock izvedbu dueta ili skupine s vokalima, 
+                    MTV europska glazbena nagrada za najbolji album, Americka glazbena nagrada za omiljenog izvodaca - alternativni rock, 
+                    Americka glazbena nagrada za pop/rock band/duo/grupu, MTV europska nagrada za najbolji nastup uživo, 
+                    MTV video glazbena nagrada za najbolju režiju, MTV video glazbena nagrada za najbolji breakthrough spot,
+                    MTV video glazbena nagrada za najbolju umjetnicku režiju, Kerrang! Nagrada za najbolji inozemni bend, Kerrang! 
+                    Nagrada za klasicnog tekstopisca, 
+                    BRIT nagrada za najbolju medunarodnu skupinu, MTV video glazbena nagrada po izboru gledatelja, 
+                    Echo za najbolju internacionalnu pop-rock grupu, Echo za najbolju medunarodnu rock/alternativnu grupu</td>	
+           
+
+
+</tr>
+
+<tr>
+<td colspan="3">
+<img src="http://fc03.deviantart.net/fs71/f/2013/206/0/f/red_hot_chili_peppers_by_lord_iluvatar-d6f19j2.jpg"  width="960" height="540" /></br>
+</td>
+</tr>
+</table>
+
+</td>
+
+<td style="background-color:white;height:200px;width:1000px;vertical-align:top;">
+
+<br><Form name="form">
+					<Select name="a" onChange="bend(a)">
+						<Option value=""> Saznaj više o clanovima benda</Option>
+						<Option value="http://hr.wikipedia.org/wiki/Anthony_Kiedis"> Anthony Kiedis </Option>
+						<Option value="http://en.wikipedia.org/wiki/Flea_(musician)"> Michael Balzary Flea  </Option>
+						<Option value="http://hr.wikipedia.org/wiki/Josh_Klinghoffer"> Josh Klinghoffer </Option>
+						<Option value="http://en.wikipedia.org/wiki/Chad_Smith"> Chad Smith </Option>
+					</Option> </Select> </form>
+<img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcS-DZUmbwPLEXe-Ue9qJqMBwdBEbDaSZZsmsDFT0ZLIBqkA3m-9"  width="232" height="217" /></br>
+<a href="http://redhotchilipeppers.com/videos"><b>Spotovi</b></a></br>
+<a href="" onclick="otvori()"><b>Galerija </b></a> <br>
+<a href="http://redhotchilipeppers.com/music"><b>Albumi RHCP-a</b></a>
+
+<script>
+function a(x)
+{
+var t1=eval(x.c.value);
+var t2=t1*9/5+32;
+x.f.value=t2;
+}
+function b(x)
+{
+var t1=eval(x.f.value);
+var t2=(t1-32)*5/9;
+x.c.value=t2;
+}
+</script>
+<br><br><br>
+Ovdje možete preracunati °C u °F
+<form name="forma">
+°C <input type="text" name="c" onkeyup="a(forma)" /><br />
+°F <input type="text" name="f" onkeyup="b(forma)" /><br />
+</form>
+
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+<script>
+function funkcija(mojafunkcija)
+{
+var x=confirm("Želite li rezultat?")
+if(x==true)
+mojafunkcija.ispis.value=eval(mojafunkcija.unos.value);
+else
+alert("Aj bok");
+}
+</script>
+</head>
+
+<body> Upiši matematicki izraz
+<form name="mojaforma">
+
+
+<input type="text" name="unos" value=" "><br>
+<input type="button" name="gumb" value="Izracunaj" onclick="funkcija(mojaforma)"><br>
+<input type="text" name="ispis" value="">
+	<br> 
+
+</body>
+</html>
+	
+</td>
+		
+
+
+
+
+<tr>
+<td colspan="2" style="background-color:#FFC0CB;text-align:center;">
+
+<script>
+document.write("Danas je "+dan[d.getDay()]+", "+d.getDate()+". "+mjesec[d.getMonth()]);
+</script
+
+
+</td>
+
+</tr>
+</table>
+ 
